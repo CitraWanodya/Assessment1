@@ -27,29 +27,29 @@ abstract class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.nama_invalid, Toast.LENGTH_LONG).show()
             return
         }
-        val edBulanlalu
-        val edBulanini
-        val getPembayaran
-        val pemakaian:
-        val pemakaian = edBulanlalu - edBulanini
+//        val edBulanlalu
+//        val edBulanini
+//        val getPembayaran
+//        val pemakaian:
+//        val pemakaian = edBulanlalu - edBulanini
 //        val pembayaran = getPembayaran(tipe)
 //        binding.pemakaianTextView.text = "Pemakaian: {pemakaian}"
 //        binding.pembayaranTextView.text = "Pembayaran: {pembayaran}"
 
-        fun getPembayaran(pemakaian) {
-            val tipe = binding.edTipe.toString()
-            Toast.makeText(this, "Tipe tidak boleh kosong.", Toast.LENGTH_LONG).show()
-            if(tipe.equals("R1")){
-                val tarif = 300
-                val beban = 20000
-            }else if(tipe.equals("R2")){
-                val tarif = 450
-                val beban = 25000
-            }else if(tipe.equals("R3")){
-                val tarif = 600
-                val beban = 30000
-            }
-        }
+//        fun getPembayaran(pemakaian) {
+//            val tipe = binding.edTipe.toString()
+//            Toast.makeText(this, "Tipe tidak boleh kosong.", Toast.LENGTH_LONG).show()
+//            if(tipe.equals("R1")){
+//                val tarif = 300
+//                val beban = 20000
+//            }else if(tipe.equals("R2")){
+//                val tarif = 450
+//                val beban = 25000
+//            }else if(tipe.equals("R3")){
+//                val tarif = 600
+//                val beban = 30000
+//            }
+//        }
     }
 
 }
